@@ -98,10 +98,10 @@ match grade:
 		print('Invalid grade.')
 
 
-#Python  supports the ternary operator
-result = ('x is equal to 5 is true' if x (x==5) else 'x is equal to 5 is false')
-print (result)
-print(('x is equal to 5 is true' if x (x==5) else 'x is equal to 5 is false'))
+# #Python  supports the ternary operator
+# result = 'x is equal to 5 is true' if x (x==5) else 'x is equal to 5 is false'
+# print (result)
+# print(('x is equal to 5 is true' if x (x==5) else 'x is equal to 5 is false'))
 
 # The ternary operator may be written using tuples
 # (false value, true value) [Expression to test]
@@ -113,3 +113,27 @@ print(result)
 
 result = {True :'x is equal to 5 is true', False: 'x is equal to 5 is false.'} [x==5]
 print(result)
+
+# Expressions in python may also use the logical operators and, or, and not
+num = 150
+
+#This if-else decision structure tests if num is between 1 and 100.
+if (num >= 1 and num <= 100):
+	print('num is between 1 and 100')
+else:
+	print('num is not betweej 1 and 100')
+
+#This if-else decision structure tests if num is not between 1 and 100.
+if (num < 1 or num > 100):
+	print('num is not between 1 and 100')
+else:
+	print('num is  between 1 and 100')
+
+foundIt = False
+
+#This if-else decision structure tests if foundIt is false.
+
+if (not foundIt):
+	print('foundIt is false')
+else:
+	print('foundIt is True')
